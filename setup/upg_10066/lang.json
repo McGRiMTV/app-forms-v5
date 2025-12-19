@@ -1,0 +1,15 @@
+{
+    "normal": {
+        "added": [
+            "menu__applicationform_forms_settings",
+            "appforms_hide_icons"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

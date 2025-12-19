@@ -1,0 +1,178 @@
+{
+    "1": {
+        "method": "createTable",
+        "params": [
+            {
+                "name": "applicationform_comments",
+                "columns": {
+                    "id": {
+                        "allow_null": false,
+                        "auto_increment": true,
+                        "binary": false,
+                        "comment": "ID Number",
+                        "decimals": null,
+                        "default": null,
+                        "length": 20,
+                        "name": "id",
+                        "type": "BIGINT",
+                        "unsigned": false,
+                        "values": [],
+                        "zerofill": false
+                    },
+                    "item_id": {
+                        "allow_null": true,
+                        "auto_increment": false,
+                        "binary": false,
+                        "comment": "Content Item ID",
+                        "decimals": null,
+                        "default": null,
+                        "length": 20,
+                        "name": "item_id",
+                        "type": "BIGINT",
+                        "unsigned": true,
+                        "values": [],
+                        "zerofill": false
+                    },
+                    "author": {
+                        "allow_null": true,
+                        "auto_increment": false,
+                        "binary": false,
+                        "comment": "Author ID",
+                        "decimals": null,
+                        "default": null,
+                        "length": 20,
+                        "name": "author",
+                        "type": "BIGINT",
+                        "unsigned": true,
+                        "values": [],
+                        "zerofill": false
+                    },
+                    "author_name": {
+                        "allow_null": true,
+                        "auto_increment": false,
+                        "binary": false,
+                        "comment": "Author's name",
+                        "decimals": null,
+                        "default": null,
+                        "length": 20,
+                        "name": "author_name",
+                        "type": "VARCHAR",
+                        "unsigned": false,
+                        "values": [],
+                        "zerofill": false
+                    },
+                    "ip_address": {
+                        "allow_null": true,
+                        "auto_increment": false,
+                        "binary": false,
+                        "comment": "Members IP Address",
+                        "decimals": null,
+                        "default": null,
+                        "length": 46,
+                        "name": "ip_address",
+                        "type": "VARCHAR",
+                        "unsigned": false,
+                        "values": [],
+                        "zerofill": false
+                    },
+                    "start_date": {
+                        "allow_null": true,
+                        "auto_increment": false,
+                        "binary": false,
+                        "comment": "Creation Date",
+                        "decimals": null,
+                        "default": null,
+                        "length": 10,
+                        "name": "start_date",
+                        "type": "INT",
+                        "unsigned": true,
+                        "values": [],
+                        "zerofill": false
+                    },
+                    "bitwise": {
+                        "allow_null": true,
+                        "auto_increment": false,
+                        "binary": false,
+                        "comment": "bitwise field.",
+                        "decimals": null,
+                        "default": null,
+                        "length": 20,
+                        "name": "bitwise",
+                        "type": "BIGINT",
+                        "unsigned": true,
+                        "values": [],
+                        "zerofill": false
+                    },
+                    "content": {
+                        "name": "content",
+                        "type": "MEDIUMTEXT",
+                        "length": null,
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": true,
+                        "default": null,
+                        "comment": "",
+                        "unsigned": false,
+                        "zerofill": false,
+                        "auto_increment": false,
+                        "binary": false
+                    }
+                },
+                "indexes": {
+                    "PRIMARY": {
+                        "type": "primary",
+                        "name": "PRIMARY",
+                        "length": [
+                            null
+                        ],
+                        "columns": [
+                            "id"
+                        ]
+                    },
+                    "IP Address": {
+                        "type": "key",
+                        "name": "IP Address",
+                        "length": [
+                            null
+                        ],
+                        "columns": [
+                            "ip_address"
+                        ]
+                    },
+                    "Start Date": {
+                        "type": "key",
+                        "name": "Start Date",
+                        "length": [
+                            null
+                        ],
+                        "columns": [
+                            "start_date"
+                        ]
+                    }
+                },
+                "collation": "utf8mb4_unicode_ci",
+                "engine": "InnoDB"
+            }
+        ]
+    },
+    "2": {
+        "method": "addColumn",
+        "params": [
+            "applicationform_applications",
+            {
+                "name": "commentscount",
+                "type": "INT",
+                "length": 10,
+                "decimals": null,
+                "values": null,
+                "allow_null": true,
+                "default": "0",
+                "comment": "",
+                "unsigned": false,
+                "zerofill": false,
+                "auto_increment": false,
+                "binary": false
+            }
+        ]
+    }
+}

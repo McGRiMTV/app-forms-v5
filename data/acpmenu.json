@@ -1,0 +1,17 @@
+{
+    "forms": {
+        "position": {
+            "tab": "community",
+            "controller": "position",
+            "do": "",
+            "restriction": "position_manage"
+        },
+        "settings": {
+            "tab": "community",
+            "controller": "settings",
+            "do": "",
+            "restriction": "settings_manage",
+            "subcontrollers": ""
+        }
+    }
+}

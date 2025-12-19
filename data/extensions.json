@@ -1,0 +1,65 @@
+{
+    "core": {
+        "ModCp": {
+            "ApplicationApproval": "IPS\\applicationform\\extensions\\core\\ModCp\\ApplicationApproval"
+        },
+        "LiveSearch": {
+            "Position": "IPS\\applicationform\\extensions\\core\\LiveSearch\\Position"
+        },
+        "ModeratorPermissions": {
+            "ManageApplications": "IPS\\applicationform\\extensions\\core\\ModeratorPermissions\\ManageApplications"
+        },
+        "FileStorage": {
+            "Fields": "IPS\\applicationform\\extensions\\core\\FileStorage\\Fields",
+            "Icons": "IPS\\applicationform\\extensions\\core\\FileStorage\\Icons"
+        },
+        "EditorLocations": {
+            "Application": "IPS\\applicationform\\extensions\\core\\EditorLocations\\Application",
+            "Position": "IPS\\applicationform\\extensions\\core\\EditorLocations\\Position",
+            "Pm": "IPS\\applicationform\\extensions\\core\\EditorLocations\\Pm"
+        },
+        "MemberHistory": {
+            "Group": "IPS\\applicationform\\extensions\\core\\MemberHistory\\Group"
+        },
+        "Uninstall": {
+            "Uninstall": "IPS\\applicationform\\extensions\\core\\Uninstall\\Uninstall"
+        },
+        "IpAddresses": {
+            "Submission": "IPS\\applicationform\\extensions\\core\\IpAddresses\\Submission",
+            "Comment": "IPS\\applicationform\\extensions\\core\\IpAddresses\\Comment"
+        },
+        "FrontNavigation": {
+            "Node": "IPS\\applicationform\\extensions\\core\\FrontNavigation\\Node",
+            "Form": "IPS\\applicationform\\extensions\\core\\FrontNavigation\\Form"
+        },
+        "MemberSync": {
+            "Application": "IPS\\applicationform\\extensions\\core\\MemberSync\\Application"
+        },
+        "Notifications": {
+            "Submission": "IPS\\applicationform\\extensions\\core\\Notifications\\Submission"
+        },
+        "AdvertisementLocations": {
+            "Applicationform": "IPS\\applicationform\\extensions\\core\\AdvertisementLocations\\Applicationform"
+        }
+    },
+    "applicationform": {
+        "ApplicationAction": {
+            "SendEmail": "IPS\\applicationform\\extensions\\applicationform\\ApplicationAction\\SendEmail",
+            "Webhook": "IPS\\applicationform\\extensions\\applicationform\\ApplicationAction\\Webhook",
+            "CreatePost": "IPS\\applicationform\\extensions\\applicationform\\ApplicationAction\\CreatePost",
+            "CreateTopic": "IPS\\applicationform\\extensions\\applicationform\\ApplicationAction\\CreateTopic",
+            "CreatePm": "IPS\\applicationform\\extensions\\applicationform\\ApplicationAction\\CreatePm",
+            "Core": "IPS\\applicationform\\extensions\\applicationform\\ApplicationAction\\Core"
+        }
+    },
+    "trophies": {
+        "TrophyCriteria": {
+            "Applicationform": "IPS\\applicationform\\extensions\\trophies\\TrophyCriteria\\Applicationform"
+        }
+    },
+    "rules": {
+        "Definitions": {
+            "Application": "IPS\\applicationform\\extensions\\rules\\Definitions\\Application"
+        }
+    }
+}

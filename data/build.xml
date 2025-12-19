@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build>
+ <module key="admin/forms"><![CDATA[{"default_controller":"position","protected":0,"default":1}]]></module>
+ <module key="front/applications"><![CDATA[{"default_controller":"form","protected":0,"default":0}]]></module>
+ <task frequency="P0Y0M1DT1H0M0S">demotemembers</task>
+ <setting key="appforms_hide_icons"><![CDATA[{"key":"appforms_hide_icons","default":"0"}]]></setting>
+ <widget key="OpenPositions"><![CDATA[{"class":"\\IPS\\Widget\\PermissionCache","restrict":["sidebar","cms"],"default_area":"","allow_reuse":false,"menu_style":"menu","embeddable":false}]]></widget>
+ <hook key="forums"><![CDATA[{"type":"S","class":"\\IPS\\Theme\\class_forums_front_forums"}]]></hook>
+ <hook key="Forum"><![CDATA[{"type":"C","class":"\\IPS\\forums\\Forum"}]]></hook>
+ <hook key="topics"><![CDATA[{"type":"S","class":"\\IPS\\Theme\\class_forums_front_topics"}]]></hook>
+</build>

@@ -1,0 +1,16 @@
+{
+    "normal": {
+        "added": [
+            "position_webhookurl",
+            "position_webhookurl_desc",
+            "app_position_field"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

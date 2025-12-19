@@ -1,0 +1,10 @@
+{
+    "forms": {
+        "position": {
+            "position_manage": "position_manage"
+        },
+        "settings": {
+            "settings_manage": "settings_manage"
+        }
+    }
+}
